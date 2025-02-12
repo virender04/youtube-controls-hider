@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Fullscreen Controls Toggle",
+  "version": "1.0",
+  "description": "Toggle YouTube fullscreen controls visibility with Ctrl+Q",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "images.jpg",
+    "128": "images.jpg"
+  }
+}

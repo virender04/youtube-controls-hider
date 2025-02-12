@@ -1,0 +1,12 @@
+.ytp-chrome-controls-hidden .ytp-mousemove {
+  cursor: none !important;
+}
+
+/* Ensure custom styles don't interfere with normal viewing */
+.ytp-chrome-controls-hidden .ytp-chrome-bottom,
+.ytp-chrome-controls-hidden .ytp-chrome-top,
+.ytp-chrome-controls-hidden .ytp-gradient-bottom,
+.ytp-chrome-controls-hidden .ytp-gradient-top {
+  opacity: 0 !important;
+  transition: opacity 0.3s ease-out;
+}
